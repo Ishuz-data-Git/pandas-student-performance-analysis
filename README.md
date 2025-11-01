@@ -49,6 +49,15 @@ Boxplot	Spread of scores by Gender
 Heatmap	Correlation between numerical variables
 Countplot	Pass/Fail distribution
 
+💾 Step 6: Export Cleaned Data
+
+Exported the final cleaned dataset for reuse or ML modeling:
+
+df.to_csv('StudentsPerformance_Cleaned.csv', index=False)
+
+
+File saved as → StudentsPerformance_Cleaned.csv
+
 📈 Insight Highlights:
 
 Students who completed Test Preparation scored significantly higher.
